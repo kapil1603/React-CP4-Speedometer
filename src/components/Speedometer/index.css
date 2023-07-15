@@ -1,5 +1,60 @@
 /* Write your CSS here */
+
+* {
+  margin: 0px;
+}
 .Container {
   height: 100vh;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/speedometer-img.png ');
+  background-color: #07080c;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.para {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.image1 {
+  height: 300px;
+  width: 600px;
+  margin: 30px;
+}
+
+.para {
+  margin: 15px;
+}
+
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.blue-color {
+  background-color: #007bff;
+}
+
+.white-color {
+  background-color: transparent;
+  border: 1px solid white;
 }
