@@ -42,7 +42,7 @@ class Speedometer extends Component {
             className="button white-color"
             onClick={this.decreaseSpeed}
           >
-            Break
+            Apply Brake
           </button>
         </div>
       </div>
